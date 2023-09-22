@@ -14,7 +14,7 @@ frame1.pack_propagate(False)
 logo_img = ImageTk.PhotoImage(file="assets/RRecipe_logo.png")
 logo_widget = tk.Label(frame1, image=logo_img, bg="#3d6466")
 logo_widget.image = logo_img
-logo_img.pack()
+logo_widget.pack()
 
 # run app
 root.mainloop()
