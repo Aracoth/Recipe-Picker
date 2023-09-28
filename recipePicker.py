@@ -102,10 +102,10 @@ def load_frame2():
         tk.Label(
             frame2,
             text=i,
-            bg=bg_colour,
+            bg="#28393a",
             fg="white",
             font=("TkMenuFont", 12),
-        ).pack()
+        ).pack(fill="both")
 
     tk.Button(
         frame2,
